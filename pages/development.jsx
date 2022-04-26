@@ -13,7 +13,6 @@ export default function Home() {
 <div className="colorScheme colorScheme1">
   <p>
   #1CAA05
-
   </p>
 <p>
   rgb(28, 170, 5)
@@ -25,23 +24,23 @@ export default function Home() {
   </div>
 <div className="colorScheme colorScheme2">
   <p>
-  #E8F8E3
+  #A620F7
   </p>
   <p>
-  rgb(232, 248, 227)
+rgb(163, 32, 245)
   </p>
   <p>
-    "light green"
+    "purple"
   </p>
   </div>
 <div className="colorScheme colorScheme3">
 
     <p>
-  #6F9568
+  #700EAB
 
   </p>
   <p>
-rgb(111, 149, 104)
+rgb(111, 14, 171)
   </p>
   <p>
     "army green"
@@ -49,24 +48,24 @@ rgb(111, 149, 104)
   </div>
 <div className="colorScheme colorScheme4">
 <p>
-  #8BCE84
+  #F73420
 </p>
   <p>
-    rgb(139, 206, 132)
+rgb(247, 52, 32)
   </p>
   <p>
-    "neutral green"
+    "red"
   </p>
   </div>
 <div className="colorScheme colorScheme5">
   <p>
-  #81DD72
+  #AB1C0E
 </p>
   <p>
-    rgb(139, 206, 132)
+rgb(171, 28, 14)
   </p>
   <p>
-    "lime green"
+    "dark red"
   </p>
   </div>
 
@@ -96,16 +95,21 @@ rgb(111, 149, 104)
   background-color: #1CAA05;
 }
 .colorScheme2{
-  background-color: #E8F8E3;
+  background-color: #A320F5;
+  color: white;
+
 }
 .colorScheme3{
-  background-color: #6F9568;
+  background-color: #6F0EAB;
+  color: white;
 }
 .colorScheme4{
-  background-color: #8BCE84;
+  background-color: #F73420;
 }
 .colorScheme5{
-  background-color: #81DD72;
+  background-color: #AB1C0E;
+  color: white;
+
 }
 
       `}</style>

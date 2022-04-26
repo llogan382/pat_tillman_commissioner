@@ -12,6 +12,9 @@ export default function PTCHeader() {
       <Head>
         <title>Pat Tillman | County Commissioner</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet" />
       </Head>
 
     <nav>
@@ -24,10 +27,12 @@ export default function PTCHeader() {
               <Link className="page_link experience" href="/experience"><a>Experience</a></Link>
               <Link className="page_link service" href="/service"><a>Service</a></Link>
               <Link className="page_link priorities" href="/priorities"><a>Priorities</a></Link>
+                            <Link className="page_link donate" href="/donate"><a>Donate</a></Link>
         </div>
         <div className="links email_group">
           <div className="page_link">
-      pat@tillmanforcountycommissioner.com
+    <Link className="page_link email" href="mailto:
+      pat@tillmanforcountycommissioner.com"><a>Email</a></Link>
             </div>
         </div>
         <div className="links social_group">
