@@ -16,7 +16,9 @@ export default function PTCHeader() {
 
 <nav className="navMenu">
   <div className="navLogo">
-    <Image className='navLogo' src={patTillmanLogo}  />
+    <Image className='navLogo' src={patTillmanLogo}
+    alt="Pat Tillman Logo" />
+
 
   </div>
 

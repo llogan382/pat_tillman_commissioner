@@ -1,4 +1,3 @@
-import styled from 'styled-components'
 import PTCHeader from '../components/PTCHeader'
 import GridGallery from '../components/GridGallery';
 
