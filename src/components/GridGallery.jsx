@@ -1,35 +1,26 @@
 import Image from "next/image";
-
-import cake from "../public/images/cake.jpg";
-import court from "../public/images/court.jpg";
-import disney from "../public/images/disney.jpg";
-import filter from "../public/images/filter.jpg";
-import gwbushlib from "../public/images/gwbushlib.jpg";
-import hardister from "../public/images/hardister.jpg";
-import harperwinnie from "../public/images/harperwinnie.jpg";
-import iraq from "../public/images/iraq.jpg";
-import one from "../public/images/1.jpg";
-import two from "../public/images/2.jpg";
-import three from "../public/images/3.jpg";
-import four from "../public/images/4.jpg";
-import five from "../public/images/5.jpg";
-import six from "../public/images/6.jpg";
-import seven from "../public/images/7.jpg";
-import eight from "../public/images/8.jpg";
-import nine from "../public/images/9.jpg";
-import ten from "../public/images/10.jpg";
-import eleven from "../public/images/11.jpg";
-import twelve from "../public/images/12.jpg";
-import thirteen from "../public/images/13.jpg";
-import fourteen from "../public/images/14.jpg";
-import fifteen from "../public/images/15.jpg";
-import sixteen from "../public/images/16.jpg";
-import seventeen from "../public/images/17.jpg";
-// import 18 from '../public/images/18.jpg'
-// import 19 from '../public/images/19.jpg'
-// import 20 from '../public/images/20.jpg'
-// import 21 from '../public/images/21.jpg'
-// import 22 from '../public/images/22.jpg'
+import one from "../../public/1.jpg";
+import two from "../../public/2.jpg";
+import three from "../../public/3.jpg";
+import four from "../../public/4.jpg";
+import five from "../../public/5.jpg";
+import six from "../../public/6.jpg";
+import seven from "../../public/7.jpg";
+import eight from "../../public/8.jpg";
+import nine from "../../public/9.jpg";
+import ten from "../../public/10.jpg";
+import eleven from "../../public/11.jpg";
+import twelve from "../../public/12.jpg";
+import thirteen from "../../public/13.jpg";
+import fourteen from "../../public/14.jpg";
+import fifteen from "../../public/15.jpg";
+import sixteen from "../../public/16.jpg";
+import seventeen from "../../public/17.jpg";
+// import 18 from '../../public/18.jpg'
+// import 19 from '../../public/19.jpg'
+// import 20 from '../../public/20.jpg'
+// import 21 from '../../public/21.jpg'
+// import 22 from '../../public/22.jpg'
 
 export default function GridGallery() {
   return (

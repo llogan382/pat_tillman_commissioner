@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import patTillmanLogo from '../public/images/patTillmanLogo.jpg'
+import patTillmanLogo from '../../public/patTillmanLogo.jpg'
 
 
 
