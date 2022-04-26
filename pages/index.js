@@ -1,29 +1,22 @@
-import PTCHeader from '../components/PTCHeader'
-import GridGallery from '../components/GridGallery';
-
+import PTCHeader from "../components/PTCHeader";
+import GridGallery from "../components/GridGallery";
 
 export default function Home() {
   return (
     <>
-  <h1>Be Sure to get out to the primary. </h1>
-  <p>Pat Tillman for County Commissioner!</p>
-
-  <style jsx>{`
-  *{
-    margin: 10rem auto;
-    text-align: center;
-    max-width: 900px;
-    width: 80%;
-  }
-  h1{
-    font-size: 5em;
-  }
-  p{
-    font-size: 2em;
-  }
-  `}</style>
+      <PTCHeader />
+      <section>
+        <div className="headerContent">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </div>
+      </section>
+      <section>
+        <div className="headerContent"></div>
+      </section>
+      <GridGallery />
     </>
   );
-
-
 }
