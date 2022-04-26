@@ -80,3 +80,13 @@ export default () => (
 ```
 
 </details>
+
+
+### Color Palette
+
+# 1CAA05
+# E8F8E3
+# 6F9568
+# 8BCE84
+# 81DD72
+

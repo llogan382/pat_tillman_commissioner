@@ -1,10 +1,12 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-
+// import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { createGlobalStyle, ThemeProvider } from "styled-components"
+// import Layout from "../components/Layout"
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: auto;
   }
 `
 

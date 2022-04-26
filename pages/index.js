@@ -1,10 +1,29 @@
 import styled from 'styled-components'
+import PTCHeader from '../components/PTCHeader'
+import GridGallery from '../components/GridGallery';
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
 
 export default function Home() {
-  return <Title>My page</Title>
+  return (
+    <>
+      <PTCHeader />
+      <section>
+        <div className="headerContent">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </div>
+      </section>
+      <section>
+        <div className="headerContent">
+
+
+         </div>
+      </section>
+      <GridGallery />
+    </>
+  );
+
+
 }
