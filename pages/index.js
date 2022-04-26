@@ -17,6 +17,15 @@ export default function Home() {
         <div className="headerContent"></div>
       </section>
       <GridGallery />
+      <style jsx>{`
+        section {
+          padding: 2rem 0;
+
+          display: flex;
+          max-width: 1200px;
+          margin: auto;
+        }
+      `}</style>
     </>
   );
 }

@@ -26,7 +26,8 @@ import eighteen  from "../public/eighteen.jpg"
 export default function GridGallery() {
   return (
     <>
-    <h2>Where we are</h2>
+    <div className="gallery-wrapper">
+
       <div className="gallery">
 
           <div className="image-wrap image-1">
@@ -106,10 +107,24 @@ export default function GridGallery() {
         objectFit="cover" className="image" alt="" src={seventeen} />
         </div>
       </div>
+    </div>
 
       <style jsx>{`
-        .gallery {
+
+      .gallery-wrapper{
+          /* max-width: 1200px;
+          margin: auto; */
           background-color: #E8F8E3;
+                    /* max-width: 1200px; */
+          margin: auto;
+          padding: 2rem 0;
+
+      }
+        .gallery {
+
+          background-color: #E8F8E3;
+                    max-width: 1200px;
+          margin: auto;
           display: grid;
 grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
   /* grid-template-columns: repeat(4, 1fr); */

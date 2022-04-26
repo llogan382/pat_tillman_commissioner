@@ -10,73 +10,72 @@ export default function PTCHeader() {
   return (
     <div>
       <Head>
-        <title>My page title</title>
+        <title>Pat Tillman | County Commissioner</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-<nav className="navMenu">
-  <div className="navLogo">
+    <nav>
+      <div className="logo">
     <Image className='navLogo' src={patTillmanLogo}
     alt="Pat Tillman Logo" />
-
-
-  </div>
-
-
-    <Link className="experience" href="/experience"><a>Experience</a></Link>
-    <Link className="service" href="/service"><a>Service</a></Link>
-    <Link className="priorities" href="/priorities"><a>Priorities</a></Link>
-
-    <div className="navEmail">
+      </div>
+      <div className="banner_group">
+        <div className="links page_group">
+              <Link className="page_link experience" href="/experience"><a>Experience</a></Link>
+              <Link className="page_link service" href="/service"><a>Service</a></Link>
+              <Link className="page_link priorities" href="/priorities"><a>Priorities</a></Link>
+        </div>
+        <div className="links email_group">
+          <div className="page_link">
       pat@tillmanforcountycommissioner.com
-    </div>
-    <div className="navFb">
-      FB
-    </div>
-    <div className="navTT">
-      TT
-    </div>
-
-
-</nav>
-
+            </div>
+        </div>
+        <div className="links social_group">
+          <div className="social_link">FB</div>
+          <div className="social_link">TT</div>
+          <div className="social_link">LI</div>
+        </div>
+      </div>
+    </nav>
 <style jsx>{`
-  .navMenu {
-    display: grid;
-    grid-template-columns: 300px auto auto auto;
-  grid-template-rows: 120px auto auto;
-grid-template-areas: "logo experience service priorities"
-"logo . . email"
-"logo . fb tt";
-align-items: end;
-justify-items: end;
+ nav{
+   padding: 3rem 0;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner_group{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+justify-content: flex-end;
+gap: 20px;
+}
+
+.links{
+  display: flex;
+  flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.page_group{
+  gap: 8rem;
+}
+.social_group {
+  gap: 1rem;
+}
+@media all and (max-width: 800px) {
+  .page_link {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
   }
-
-.navLogo {
-  grid-area: logo;
-  /* grid-row-start: 1; */
-  /* grid-row-end: 4; */
-  /* align-self: <center></center>; */
 }
-.experience {
-  grid-area: experience;
-}
-.service {
-  grid-area: service;
-}
-.priorities {
-  grid-area: priorities;
-}
-.navEmail {
-  grid-area: email;
-
-}
-.navFb{
-  grid-area: fb;
-}
-.navTT{
-  grid-area: tt;
-}
+@media all and (max-width: 500px) {
+  .page_link {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    flex-direction: column;
+  }
 }
 
       `}</style>
