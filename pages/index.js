@@ -1,16 +1,15 @@
 import PTCHeader from "../components/PTCHeader";
 import GridGallery from "../components/GridGallery";
 import Image from "next/image";
-import PTCVideo from "../components/PTCVideo";
+// import PTCVideo from "../components/PTCVideo";
 import three from "../public/three.jpg";
-import ReactPlayer from "react-player";
 import React from "react";
 export default function Home() {
   return (
     <>
       <PTCHeader />
 
-      <PTCVideo />
+      {/* <PTCVideo /> */}
       <section className="header_wrapper">
         <p className="headerContent">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

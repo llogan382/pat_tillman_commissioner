@@ -15,6 +15,7 @@ export default function PTCVideo(){
           controls='true'
           playing='true'
     muted='true'
+
     style={{
     width: "100%",
     height: "100%",

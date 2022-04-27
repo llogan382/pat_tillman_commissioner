@@ -22,6 +22,18 @@ import eighteen  from "../public/eighteen.jpg"
 // import 20 from '../public/20.jpg'
 // import 21 from '../public/21.jpg'
 // import 22 from '../public/22.jpg'
+import iraq from '../public/iraq.jpg'
+
+import twentytwo  from "../public/twentytwo.jpg"
+import twentythree  from "../public/twentythree.jpg"
+import twentyfour  from "../public/twentyfour.jpg"
+import twentyfive  from "../public/twentyfive.jpg"
+import twentysix  from "../public/twentysix.jpg"
+import twentyseven  from "../public/twentyseven.jpg"
+import twentyeight  from "../public/twentyeight.jpg"
+import twentynine  from "../public/twentynine.jpg"
+
+
 
 export default function GridGallery() {
   return (
@@ -29,72 +41,53 @@ export default function GridGallery() {
     <div className="gallery-wrapper">
 
       <div className="gallery">
-
-          <div className="image-wrap image-1">
-            <Image className="image" alt="" src={one} />
-        </div>
-
           <div className="image-wrap image-2">
-            <Image className="image" alt="" src={two} />
+            <Image className="image" alt="" src={twentytwo} />
         </div>
 
           <div className="image-wrap image-3">
             <Image
 
                     layout="fill"
-        objectFit="cover" className="image" alt="" src={three} />
+        objectFit="cover" className="image" alt="" src={twentythree} />
         </div>
 
           <div className="image-wrap image-4">
-            <Image className="image" alt="" src={four} />
+            <Image className="image" alt="" src={twentysix} />
         </div>
 
           <div className="image-wrap image-5">
-            <Image className="image" alt="" src={five} />
+            <Image className="image" alt="" src={twentyfive} />
+        </div>
+          <div className="image-wrap image-6">
+            <Image className="image" alt="" src={twentyfour} />
         </div>
 
-          <div className="image-wrap image-6">
-            <Image className="image" alt="" src={six} />
-        </div>
 
           <div className="image-wrap image-7">
-            <Image className="image" alt="" src={seven} />
+            <Image className="image" alt="" src={twentyseven} />
         </div>
 
           <div className="image-wrap image-8">
-            <Image className="image" alt="" src={eight} />
+            <Image className="image" alt="" src={twentyeight} />
         </div>
 
-          <div className="image-wrap image-9">
-            <Image className="image" alt="" src={nine} />
-        </div>
 
           <div className="image-wrap image-10">
             <Image className="image"
              layout="fill"
         objectFit="cover"
-            alt="" src={ten} />
+            alt="" src={twentynine} />
         </div>
 
-          <div className="image-wrap image-11">
-            <Image className="image" alt="" src={eleven} />
+          <div className="image-wrap image-iraq">
+            <Image className="image"
+             layout="fill"
+        objectFit="cover"
+            alt="" src={iraq} />
         </div>
 
-          <div className="image-wrap image-12">
-            <Image className="image" alt="" src={twelve} />
-        </div>
 
-          <div className="image-wrap image-13">
-            <Image className="image" alt="" src={thirteen} />
-        </div>
-
-          <div className="image-wrap image-14">
-            <Image className="image" alt="" src={fourteen} />
-        </div>
-
-          <div className="image-wrap image-15">
-            <Image className="image" alt="" src={fifteen} />
-        </div>
 
           <div className="image-wrap image-16">
             <Image
@@ -105,6 +98,9 @@ export default function GridGallery() {
           <div className="image-wrap image-17">
             <Image             layout="fill"
         objectFit="cover" className="image" alt="" src={seventeen} />
+        </div>
+                  <div className="image-wrap image-14">
+            <Image className="image" alt="" src={fourteen} />
         </div>
       </div>
     </div>
@@ -149,7 +145,7 @@ grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
         /* .gallery__item:nth-child(2n) {
           grid-area: 1/1 / span 2 / span 2;
         } */
-        .image-3 {
+        .image-2 {
   grid-column: auto / span 2;
   grid-row: auto / span 2;
 

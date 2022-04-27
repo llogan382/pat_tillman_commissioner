@@ -47,9 +47,11 @@ export default function PTCHeader() {
       pat@tillmanforcountycommissioner.com"><a>Email</a></Link>
             </div>
         </div>
+
         <div className="links social_group">
-          <div className="social_link">FB</div>
-          <div className="social_link">TT</div>
+          <Link className="social_link FB" href="https://www.facebook.com/patrick.tillman.31" ><a target="_blank" rel="noopener noreferrer">FB</a></Link>
+          <Link className="social_link FB" href="https://www.tiktok.com/@patricktillman1?lang=en
+" ><a target="_blank" rel="noopener noreferrer">TT</a></Link>
           <div className="social_link">LI</div>
         </div>
       </div>
