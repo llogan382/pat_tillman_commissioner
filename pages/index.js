@@ -1,15 +1,14 @@
 import PTCHeader from "../components/PTCHeader";
 import GridGallery from "../components/GridGallery";
 import Image from "next/image";
-// import PTCVideo from "../components/PTCVideo";
+import PTCVideo from "../components/PTCVideo";
 import three from "../public/three.jpg";
 import React from "react";
 export default function Home() {
   return (
     <>
       <PTCHeader />
-
-      {/* <PTCVideo /> */}
+      <PTCVideo />
       <section className="header_wrapper">
         <p className="headerContent">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -18,6 +17,7 @@ export default function Home() {
           aliquip ex ea commodo.
         </p>
       </section>
+
       <section className="meet_pat_section">
         <div className="meet_pat_wrapper">
           <div className="meet_pat_content">
