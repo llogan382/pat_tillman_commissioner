@@ -32,6 +32,8 @@ export default function PTCHeader() {
     <nav>
       <div className="logo">
     <Image className='navLogo' src={patTillmanLogo}
+    width={250}
+    height={189}
     alt="Pat Tillman Logo" />
       </div>
       <div className="banner_group">
@@ -44,15 +46,26 @@ export default function PTCHeader() {
         <div className="links email_group">
           <div className="page_link">
     <Link className="page_link email" href="mailto:
-      pat@tillmanforcountycommissioner.com"><a>Email</a></Link>
+      pat@tillmanforcountycommissioner.com"><a>pat@tillmanforcountycommissioner.com</a></Link>
             </div>
         </div>
 
         <div className="links social_group">
-          <Link className="social_link FB" href="https://www.facebook.com/patrick.tillman.31" ><a target="_blank" rel="noopener noreferrer">FB</a></Link>
-          <Link className="social_link FB" href="https://www.tiktok.com/@patricktillman1?lang=en
-" ><a target="_blank" rel="noopener noreferrer">TT</a></Link>
-          <div className="social_link">LI</div>
+
+          <Link className="social_link FB" href="https://www.facebook.com/patrick.tillman.31" ><a target="_blank" rel="noopener noreferrer">
+                          <Image className='navLogo' src="/facebook.png"
+    width={25}
+    height={25}
+    alt="Pat Tillman Logo" />
+            </a></Link>
+          <Link className="social_link FB" href="https://www.tiktok.com/@patricktillman1?lang=en">
+  <a target="_blank" rel="noopener noreferrer">
+      <Image className='navLogo' src="/tiktok.png"
+    width={25}
+    height={25}
+    alt="Pat Tillman Logo" />
+    </a></Link>
+
         </div>
       </div>
     </nav>
