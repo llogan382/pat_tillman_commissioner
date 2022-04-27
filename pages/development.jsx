@@ -19,7 +19,7 @@ export default function Home() {
 
 </p>
 <p>
-  "campaign green"
+  &quot;campaign green&quot;
 </p>
   </div>
 <div className="colorScheme colorScheme2">
@@ -30,7 +30,7 @@ export default function Home() {
 rgb(163, 32, 245)
   </p>
   <p>
-    "purple"
+    &quot;purple&quot;
   </p>
   </div>
 <div className="colorScheme colorScheme3">
@@ -43,7 +43,7 @@ rgb(163, 32, 245)
 rgb(111, 14, 171)
   </p>
   <p>
-    "army green"
+    &quot;army green&quot;
   </p>
   </div>
 <div className="colorScheme colorScheme4">
@@ -54,7 +54,7 @@ rgb(111, 14, 171)
 rgb(247, 52, 32)
   </p>
   <p>
-    "red"
+    &quot;red&quot;
   </p>
   </div>
 <div className="colorScheme colorScheme5">
@@ -65,7 +65,7 @@ rgb(247, 52, 32)
 rgb(171, 28, 14)
   </p>
   <p>
-    "dark red"
+    &quot;dark red&quot;
   </p>
   </div>
 
