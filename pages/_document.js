@@ -1,4 +1,6 @@
 // pages/_document.js
+import PTCHeader from "../components/PTCHeader";
+import MobileHeader from "../components/MobileHeader";
 
 import { Html, Head, Main, NextScript } from "next/document";
 
@@ -7,7 +9,11 @@ export default function Document() {
     <Html>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
           rel="stylesheet"
@@ -34,6 +40,8 @@ export default function Document() {
         <meta name="twitter:site" content="@PatTillman19" />
         <meta name="twitter:creator" content="@PatTillman19" />
       </Head>
+
+{/* <MobileHeader /> */}
       <body>
         <Main />
         <NextScript />

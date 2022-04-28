@@ -21,7 +21,7 @@ export default function PTCHeader() {
           />
         </div>
         {/* <div className="grid-pages"> */}
-
+        {/* TODO: Add hamburger menu */}
         <div className="item1">
           <Link href="/experience">Experience</Link>
         </div>
@@ -76,6 +76,7 @@ export default function PTCHeader() {
           </Link>
         </div>
       </div>
+
       <style jsx>{`
         .header-grid {
           padding: 0 1rem;
@@ -87,6 +88,8 @@ export default function PTCHeader() {
           /* grid-template-columns: 200px minmax(300px 1fr); */
           grid-auto-flow: rows;
           width: 100%;
+          max-width: 1200px;
+          margin: auto;
           /* grid-auto-flow: column; */
           grid-template-areas:
             "banner item1 item2 item3 item4"
@@ -168,6 +171,13 @@ export default function PTCHeader() {
           .grid-social2 {
             grid-area: social2;
             justify-self: center;
+          }
+        }
+
+        /* For the hamburger menu */
+        @media (max-width: 600px) {
+          .header-grid {
+            display: none;
           }
         }
       `}</style>

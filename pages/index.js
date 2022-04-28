@@ -7,7 +7,7 @@ import React from "react";
 export default function Home() {
   return (
     <>
-      <PTCHeader />
+
       <PTCVideo />
       <section className="header_wrapper">
         <p className="headerContent">
@@ -30,6 +30,7 @@ export default function Home() {
               reprehend
             </p>
           </div>
+          {/* TODO: Add pat image */}
           <div className="meet_pat_img">
             <Image
               // layout="fill"
