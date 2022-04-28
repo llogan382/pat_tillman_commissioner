@@ -105,6 +105,7 @@ export default function PTCHeader() {
       </div>
       <style jsx>{`
         .header-grid {
+          padding: 0 1rem;
           display: grid;
 
           align-items: end;
@@ -145,13 +146,12 @@ export default function PTCHeader() {
           grid-column-end: span 3;
         }
         .grid-social1 {
-          grid-area: social1;
-          grid-column-start: 5;
-          justify-self: start;
-          grid-column-end: span 1;
+          grid-area: social2;
+          padding-right: 50px;
         }
         .grid-social2 {
           grid-area: social2;
+          justify-self: end;
         }
         @media (max-width: 600px) {
           .header-grid {
@@ -181,11 +181,20 @@ export default function PTCHeader() {
             grid-column-start: 1;
             grid-column-end: span 1;
           }
-          .grid-social1 {
+          /* .grid-social1 {
             grid-area: social1;
             grid-column-start: 1;
             justify-self: center;
             grid-column-end: span 1;
+          } */
+
+          .grid-social1 {
+            grid-area: social1;
+            padding-right: 0px;
+          }
+          .grid-social2 {
+            grid-area: social2;
+            justify-self: center;
           }
         }
       `}</style>

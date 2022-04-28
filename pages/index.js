@@ -61,7 +61,13 @@ export default function Home() {
           margin: auto;
           display: flex;
           flex-direction: row;
-          justify-content: space-evenly;
+          align-items: center;
+          justify-content: space-around;
+          gap: 2rem;
+        }
+        h3 {
+          font-weight: bold;
+          margin: auto;
         }
         .meet_pat_content {
           padding: 2rem 0;
@@ -81,6 +87,17 @@ export default function Home() {
           position: absolute;
           top: 0;
           left: 0;
+        }
+
+        @media (max-width: 600px) {
+          .meet_pat_wrapper {
+            /* max-width: 1200px;
+            margin: auto;
+            display: flex; */
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-direction: column-reverse;
+          }
         }
       `}</style>
     </>

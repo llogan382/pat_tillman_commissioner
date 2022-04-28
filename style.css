@@ -9,13 +9,31 @@
 *{
       font-family: 'Raleway',
       sans-serif;
+
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+html,
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+h3{
+  font-size: 1.6rem;
 }
 section{
   padding: 2rem 1rem;
   margin: 0;
 }
 p{
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   line-height: 3rem;
 }
 
