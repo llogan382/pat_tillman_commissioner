@@ -10,9 +10,9 @@ export default function PTCVideo() {
           url="https://vimeo.com/703719897"
           width="100%"
           height="100%"
-          controls="true"
-          playing="true"
-          muted="true"
+          controls={true}
+          playing={true}
+          muted={true}
           style={{
             width: "100%",
             height: "100%",
