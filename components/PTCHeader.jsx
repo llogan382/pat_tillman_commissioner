@@ -73,7 +73,7 @@ export default function PTCHeader() {
             href="mailto:
       pat@tillmanforcountycommissioner.com"
           >
-            <a>Email Pat</a>
+            pat@tillmanforcountycommissioner.com
           </Link>
         </div>
         <div className="grid-social1">
@@ -106,10 +106,11 @@ export default function PTCHeader() {
       <style jsx>{`
         .header-grid {
           display: grid;
+
           align-items: end;
           /* justify-content: end; */
           justify-items: end;
-          grid-template-columns: 200px minmax(300px 1fr);
+          /* grid-template-columns: 200px minmax(300px 1fr); */
           grid-auto-flow: rows;
           width: 100%;
           /* grid-auto-flow: column; */
@@ -119,27 +120,6 @@ export default function PTCHeader() {
             "banner . . social1 social2";
         }
 
-        @media (max-width: 600px) {
-          .header-grid {
-            display: grid;
-            /* align-items: end; */
-            justify-content: center;
-            justify-items: center;
-            gap: 1rem;
-            /* grid-template-columns: 200px minmax(300px 1fr); */
-            /* grid-auto-flow: rows; */
-            /* width: 100%; */
-            grid-template-areas:
-              "banner"
-              "item1"
-              "item2"
-              "item3"
-              "item4"
-              "email"
-              "social1"
-              "social2";
-          }
-        }
         .grid-logo {
           grid-row-start: banner;
           grid-row-end: banner;
@@ -161,15 +141,52 @@ export default function PTCHeader() {
         }
         .grid-email {
           grid-area: email;
+          grid-column-start: 3;
+          grid-column-end: span 3;
         }
-        /* .grid-social {
-          grid-area: social;
-        } */
         .grid-social1 {
           grid-area: social1;
+          grid-column-start: 5;
+          justify-self: start;
+          grid-column-end: span 1;
         }
         .grid-social2 {
           grid-area: social2;
+        }
+        @media (max-width: 600px) {
+          .header-grid {
+            display: grid;
+            /* align-items: end; */
+            justify-content: center;
+            justify-items: center;
+            gap: 1rem;
+            /* grid-template-columns: 200px minmax(300px 1fr); */
+            /* grid-auto-flow: rows; */
+            /* width: 100%; */
+            grid-template-areas:
+              "banner"
+              "item1"
+              "item2"
+              "item3"
+              "item4"
+              "email"
+              "social1"
+              "social2";
+          }
+          .grid-logo {
+            justify-self: center;
+          }
+          .grid-email {
+            grid-area: email;
+            grid-column-start: 1;
+            grid-column-end: span 1;
+          }
+          .grid-social1 {
+            grid-area: social1;
+            grid-column-start: 1;
+            justify-self: center;
+            grid-column-end: span 1;
+          }
         }
       `}</style>
     </div>
