@@ -1,13 +1,13 @@
 import PTCHeader from "../components/PTCHeader";
 import GridGallery from "../components/GridGallery";
 import Image from "next/image";
+import profile from "../public/profile.jpg";
 import PTCVideo from "../components/PTCVideo";
 import three from "../public/three.jpg";
 import React from "react";
 export default function Home() {
   return (
     <>
-
       <PTCVideo />
       <section className="header_wrapper">
         <p className="headerContent">
@@ -34,10 +34,10 @@ export default function Home() {
           <div className="meet_pat_img">
             <Image
               // layout="fill"
-              width={1500}
-              height={1200}
-              className="navLogo"
-              src={three}
+              width={800}
+              height={800}
+              // className="navLogo"
+              src={profile}
               alt="Pat Tillman Logo"
             />
           </div>

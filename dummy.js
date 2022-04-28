@@ -20,8 +20,7 @@ export default function PTCHeader() {
             alt="Pat Tillman Logo"
           />
         </div>
-        {/* <div className="grid-pages"> */}
-        {/* TODO: Add hamburger menu */}
+
         <div className="item1">
           <Link href="/experience">Experience</Link>
         </div>
