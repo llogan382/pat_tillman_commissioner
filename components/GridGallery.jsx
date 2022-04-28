@@ -39,7 +39,13 @@ export default function GridGallery() {
       <div className="gallery-wrapper">
         <div className="gallery">
           <div className="image-wrap image-2">
-            <Image className="image" alt="" src={twentytwo} />
+            <Image
+              className="image"
+              layout="fill"
+              objectFit="cover"
+              alt=""
+              src={twentytwo}
+            />
           </div>
 
           <div className="image-wrap image-3">
@@ -53,18 +59,50 @@ export default function GridGallery() {
           </div>
           {/* TODO: Make images reponsive */}
           <div className="image-wrap image-4">
-            <Image className="image" alt="" src={twentysix} />
+            <Image
+              className="image"
+              layout="fill"
+              objectFit="cover"
+              alt=""
+              src={twentysix}
+            />
           </div>
-
+          <div className="image-wrap image-14">
+            <Image
+              className="image"
+              layout="fill"
+              objectFit="cover"
+              alt=""
+              src={fourteen}
+            />
+          </div>
           <div className="image-wrap image-5">
-            <Image className="image" alt="" src={twentyfive} />
+            <Image
+              className="image"
+              layout="fill"
+              objectFit="cover"
+              alt=""
+              src={twentyfive}
+            />
           </div>
           <div className="image-wrap image-6">
-            <Image className="image" alt="" src={twentyfour} />
+            <Image
+              className="image"
+              layout="fill"
+              objectFit="cover"
+              alt=""
+              src={twentyfour}
+            />
           </div>
 
           <div className="image-wrap image-7">
-            <Image className="image" alt="" src={twentyseven} />
+            <Image
+              className="image"
+              objectFit="cover"
+              layout="fill"
+              alt=""
+              src={twentyseven}
+            />
           </div>
 
           <div className="image-wrap image-8">
@@ -104,9 +142,6 @@ export default function GridGallery() {
               src={seventeen}
             />
           </div>
-          <div className="image-wrap image-14">
-            <Image className="image" alt="" src={fourteen} />
-          </div>
         </div>
       </div>
 
@@ -124,11 +159,11 @@ export default function GridGallery() {
           max-width: 1200px;
           margin: auto;
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
           /* grid-template-columns: repeat(4, 1fr); */
           /* grid-template-rows: masonry;
            */
-          grid-auto-rows: 20vh;
+          grid-auto-rows: 15vh;
           grid-gap: 1rem;
           grid-auto-flow: dense;
           /* align-items: stretch; */
@@ -155,12 +190,15 @@ export default function GridGallery() {
         .image-4 {
           grid-row: auto / span 2;
         }
+        .image-8 {
+          grid-row: auto / span 2;
+        }
         .image-10 {
           grid-column: auto / span 2;
           grid-row: auto / span 2;
         }
-        .image-16,
-        .image-17 {
+        .image-17,
+        .image-14 {
           grid-column: auto / span 2;
           grid-row: auto / span 2;
         }
