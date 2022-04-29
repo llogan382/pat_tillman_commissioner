@@ -39,6 +39,9 @@ export default function Home() {
       </section>
       <GridGallery />
       <style jsx>{`
+      .headerContent{
+        font-weight: bold;
+      }
               .meet_pat_section {
           width: 100%;
           color: white;
