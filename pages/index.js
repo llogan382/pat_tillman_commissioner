@@ -11,10 +11,7 @@ export default function Home() {
       <PTCVideo />
       <section className="header_wrapper">
         <p className="headerContent">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo.
+        Welcome to my site and I am delighted you are taking time to inform yourself. I wanted this site to be a portal for those that are exploring, and to keep this site more conversational. So, here goes!
         </p>
       </section>
 
@@ -23,11 +20,7 @@ export default function Home() {
           <div className="meet_pat_content">
             <h3>Meet Pat</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehend
+            A heart for service is what you need to know about me, and this experience matters. This started when I joined the US Marines 5 weeks after I graduated from Appalachian State University. Serving my country is one of the greatest privileges I’ve ever known, both in peacetime and in armed conflict.
             </p>
           </div>
 {/* TODO: Change color of links */}
