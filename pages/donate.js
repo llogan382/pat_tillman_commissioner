@@ -3,9 +3,8 @@ import PTCHeader from "../components/PTCHeader";
 export default function Donate() {
   return (
     <>
-      <PTCHeader />
       <section>
-        <h2>Donate content coming soon</h2>
+    <h1>Donate</h1>
       </section>
       <section>
         <div className="headerContent"></div>

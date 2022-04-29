@@ -32,7 +32,7 @@ import twentysix from "../public/twentysix.jpg";
 import twentyseven from "../public/twentyseven.jpg";
 import twentyeight from "../public/twentyeight.jpg";
 import twentynine from "../public/twentynine.jpg";
-
+// TODO: Update images
 export default function GridGallery() {
   return (
     <>

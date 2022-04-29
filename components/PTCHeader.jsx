@@ -61,7 +61,7 @@ export default function PTCHeader() {
           </Link>
         </div>
         <div className="grid-social2">
-          <Link href="https://www.facebook.com/patrick.tillman.31">
+          <Link href="https://www.facebook.com/pt4d3countycommissioner">
             <a target="_blank" rel="noopener noreferrer">
               <Image
                 className="navLogo"

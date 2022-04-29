@@ -3,12 +3,18 @@ import PTCHeader from "../components/PTCHeader";
 export default function Priorities() {
   return (
     <>
-      <PTCHeader />
       <section>
-        <h2>Priorities content coming soon</h2>
+    <h1>
+      Priorities
+    </h1>
       </section>
       <section>
-        <div className="headerContent"></div>
+    <ol>
+      <li>For Guilford County to be the most competitive (business & industry friendly) County in the Southeast. I believe with the right policy makers paired with strategic priorities we can build and sustain a Guilford Renaissance</li>
+      <li>I will work so that Guilford county is the safest place to live, work and play. It is unacceptable to have citizens in fear of going anywhere they so choose at anytime. I will support and advocate relentlessly for our men and women in law enforcement and first responders</li>
+      <li>I envision Guilford County to be the cleanest and most welcoming County in the state
+</li>
+    </ol>
       </section>
 
       <style jsx>{`

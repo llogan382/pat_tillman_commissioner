@@ -30,7 +30,8 @@ export default function Home() {
               reprehend
             </p>
           </div>
-          {/* TODO: Add pat image */}
+{/* TODO: Change color of links */}
+
           <div className="meet_pat_img">
             <Image
               // layout="fill"
