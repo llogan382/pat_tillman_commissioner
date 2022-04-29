@@ -2,6 +2,9 @@
   --campaign-green: #1CAA05;
   --purple-lt: #A620F7;
   --purple-dk: #700EAB;
+  --army-gn:   #6F9568;
+  --neutral-green:   #8BCE84;
+
   --red: #F73420;
   --dark-red: #AB1C0E;
 }
@@ -51,8 +54,9 @@ p{
 }
 
 a{
-  color: var(--purple-dk);
+  color: var(--army-gn);
 }
+
 
 a:hover{
   transform: scale(1.2);
@@ -61,5 +65,5 @@ a:hover{
 }
 
 a:visited{
-  color: var(--purple-lt);
+  color: var(--neutral-green);
 }
