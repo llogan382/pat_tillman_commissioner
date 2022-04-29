@@ -39,20 +39,24 @@ export default function Home() {
       </section>
       <GridGallery />
       <style jsx>{`
-        .header_wrapper {
-          display: flex;
-          max-width: 1200px;
-          margin: auto;
-        }
-
-        .meet_pat_section {
+              .meet_pat_section {
           width: 100%;
           color: white;
           background-color: var(--dark-red);
         }
+        .header_wrapper {
+          display: flex;
+          width: 80%;
+          max-width: 1200px;
+          margin: auto;
+        }
+
+
 
         .meet_pat_wrapper {
           max-width: 1200px;
+          width: 80%;
+
           margin: auto;
           display: flex;
           flex-direction: row;
