@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import PTCHeader from "../components/PTCHeader";
 import Image from "next/image";
 import qrcode from '../public/paypal_donat.png'
@@ -15,6 +16,7 @@ export default function Donate() {
 <input type="hidden" name="no_recurring" value="0" />
 <input type="hidden" name="currency_code" value="USD" />
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+{/* // eslint-disable-next-line @next/next/no-img-element */}
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 <h2>Use Your Phone&apos;s camera to Donate</h2>
