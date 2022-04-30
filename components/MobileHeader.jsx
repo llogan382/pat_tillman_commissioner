@@ -69,7 +69,7 @@ export default function MobileHeader() {
             </Link>
           </li>
           <li>
-            <Link href="https://www.facebook.com/patrick.tillman.31">
+            <Link href="https://www.facebook.com/patrick.tillman.31" passHref>
               <Image
                 className="social-icon"
                 src="/facebook.png"

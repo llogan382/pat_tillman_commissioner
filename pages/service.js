@@ -11,7 +11,7 @@ export default function Service() {
       <section>
     <p>
     In 2018, Appointed to the NC Safe Schools Task Force NC Task Force for Safer Schools | NC DPI
-Board of Directors for The Heroe's Center  Heroes Center (heroescenternc.org)
+Board of Directors for The Heroe&apos;s Center  Heroes Center (heroescenternc.org)
     </p>
 <p>
 Senior Leadership team for Greensboro’s F3 (Fitness, Fellowship and Faith) F3 Greensboro - free bootcamp-style group workouts for men
