@@ -19,7 +19,7 @@ export default function Donate() {
 {/* // eslint-disable-next-line @next/next/no-img-element */}
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
-<h2>Use Your Phone&apos;s camera to Donate</h2>
+<h2>Or Use Your Phone&apos;s camera to Donate</h2>
 <p>Open your camera, scan the QR code below, and give online. </p>
 <Image
               // layout="fill"
