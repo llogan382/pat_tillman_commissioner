@@ -45,7 +45,7 @@ export default function Home() {
               .meet_pat_section {
           width: 100%;
           color: white;
-          background-color: var(--dark-red);
+          background-color: var(--neutral-green);
         }
         .header_wrapper {
           display: flex;
