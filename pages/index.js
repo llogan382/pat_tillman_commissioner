@@ -20,7 +20,7 @@ export default function Home() {
           <div className="meet_pat_content">
             <h3>Meet Pat</h3>
             <p>
-            A heart for service is what you need to know about me, and this experience matters. This started when I joined the US Marines 5 weeks after I graduated from Appalachian State University. Serving my country is one of the greatest privileges I’ve ever known, both in peacetime and in armed conflict.
+            A ‘heart for service’ is what you need to know about me, and this experience matters. This started when I joined the US Marines 5 weeks after I graduated from Appalachian State University. Serving my country is one of the greatest privileges I’ve ever known, both in peacetime and in armed conflict.
             </p>
           </div>
 {/* TODO: Change color of links */}
