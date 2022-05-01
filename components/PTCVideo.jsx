@@ -40,6 +40,22 @@ export default function PTCVideo() {
           height: 100%;
           border: 2px solid green;
         }
+
+        @media (max-width: 600px) {
+          .player-wrapper {
+          /* position: relative; */
+          /* padding-bottom: 50px; */
+          height: 200px;
+          /* overflow: visible; */
+          padding-top: 200px;
+          /* Player ratio: 100 / (1280 / 720) */
+        }
+        .react-player{
+          top: 50px;
+          border: 2px solid red;
+        }
+
+        }
       `}</style>
     </>
   );

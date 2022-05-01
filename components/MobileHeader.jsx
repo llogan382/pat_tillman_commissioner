@@ -1,9 +1,21 @@
+import React, { useState, useEffect } from 'react';
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import patTillmanLogo from "../public/patTillmanLogo.jpg";
 
 export default function MobileHeader() {
+
+  function useToggle(initialValue = false) {
+    const [value, setValue] = React.useState(initialValue);
+    const toggle = React.useCallback(() => {
+      setValue(v => !v);
+    }, []);
+    return [value, toggle];
+  }
+  const [isOn, toggleIsOn] = useToggle();
+  {isOn ? true : false}
+
   return (
     <div>
       <Head>
@@ -21,34 +33,34 @@ export default function MobileHeader() {
             alt="Pat Tillman Logo"
           />
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
-        <label className="menu-icon" htmlFor="menu-btn">
+        <input className="menu-btn" type="checkbox" checked={isOn} id="menu-btn" onClick={toggleIsOn}/>
+        <label className="menu-icon" htmlFor="menu-btn" >
           <span className="navicon"></span>
         </label>
-        <ul className="menu">
-          <li>
-            <Link href="/experience">Experience</Link>
+        <ul className="menu" onClick={toggleIsOn}>
+          <li  >
+            <Link  passHref href="/experience">Experience</Link>
           </li>
           <li>
-            <Link href="/service">
-              <a>Service</a>
+            <Link passHref href="/service">
+              Service
             </Link>
           </li>
           <li>
-            <Link href="/priorities">
-              <a>Priorities</a>
+            <Link passHref href="/priorities">
+Priorities
             </Link>
           </li>
           <li>
-            <Link href="/donate">
-              <a>Donate</a>
+            <Link passHref href="/donate">
+Donate
             </Link>
           </li>
           <li>
             <Link
               href="mailto:
       pat@tillmanforcountycommissioner.com"
-            >
+      passHref>
               pat@tillmanforcountycommissioner.com
             </Link>
           </li>
@@ -58,18 +70,17 @@ export default function MobileHeader() {
               href="https://www.tiktok.com/@patricktillman1?lang=en"
               passHref
             >
-              <>
+
                 <Image
                   src="/tiktok.png"
                   width={25}
                   height={25}
                   alt="Pat Tillman Logo"
                 />
-              </>
             </Link>
           </li>
           <li>
-            <Link href="https://www.facebook.com/patrick.tillman.31" passHref>
+            <Link passHref href="https://www.facebook.com/patrick.tillman.31">
               <Image
                 className="social-icon"
                 src="/facebook.png"
@@ -105,11 +116,13 @@ export default function MobileHeader() {
           list-style: none;
           overflow: hidden;
           background-color: #fff;
+          z-index: 3;
+
         }
 
         .header li {
           display: block;
-          padding: 20px 20px;
+          /* padding: 20px 20px; */
           border-right: 1px solid #f4f4f4;
           text-align: center;
           text-decoration: none;
