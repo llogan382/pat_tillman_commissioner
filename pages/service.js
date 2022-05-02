@@ -3,12 +3,12 @@ import PTCHeader from "../components/PTCHeader";
 export default function Service() {
   return (
     <>
+
+
       <section>
-    <h1>
+      <h1>
       Service
     </h1>
-      </section>
-      <section>
     <p>
     In 2018, Appointed to the NC Safe Schools Task Force NC Task Force for Safer Schools | NC DPI
 Board of Directors for The Heroe&apos;s Center  Heroes Center (heroescenternc.org)
@@ -38,6 +38,11 @@ Serving as a staff non-commissioned officer in the U.S. Marines, I worked and le
           /* display: flex; */
           max-width: 1200px;
           margin: auto;
+        }
+        @media (max-width: 600px) {
+          section {
+            padding-top: 7rem;
+          }
         }
       `}</style>
     </>

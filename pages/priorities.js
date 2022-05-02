@@ -3,12 +3,12 @@ import PTCHeader from "../components/PTCHeader";
 export default function Priorities() {
   return (
     <>
+
+
       <section>
-    <h1>
+            <h1>
       Priorities
     </h1>
-      </section>
-      <section>
     <ol>
       <li>For Guilford County to be the most competitive (business & industry friendly) County in the Southeast. I believe with the right policy makers paired with strategic priorities we can build and sustain a <strong>Guilford Renaissance</strong>
 
@@ -24,9 +24,14 @@ export default function Priorities() {
         section {
           padding: 2rem 0;
 
-          display: flex;
+          /* display: flex; */
           max-width: 1200px;
           margin: auto;
+        }
+        @media (max-width: 600px) {
+          section {
+            padding-top: 7rem;
+          }
         }
       `}</style>
     </>

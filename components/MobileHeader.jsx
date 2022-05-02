@@ -17,7 +17,7 @@ export default function MobileHeader() {
   {isOn ? true : false}
 
   return (
-    <div>
+    <>
       <Head>
         <title>Pat Tillman | County Commissioner</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -255,6 +255,6 @@ Donate
           }
         }
       `}</style>
-    </div>
+    </>
   );
 }

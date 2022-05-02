@@ -100,6 +100,10 @@ export default function Home() {
             justify-content: space-evenly;
             flex-direction: column-reverse;
           }
+          .header_wrapper {
+            padding-top: 0px;
+            margin-top: -75px;
+        }
         }
       `}</style>
     </>

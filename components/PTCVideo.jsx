@@ -43,16 +43,13 @@ export default function PTCVideo() {
 
         @media (max-width: 600px) {
           .player-wrapper {
-          /* position: relative; */
+          /* position: unset; */
           /* padding-bottom: 50px; */
           height: 200px;
           /* overflow: visible; */
-          padding-top: 200px;
+          /* padding-top: 200px; */
+          box-sizing: initial;
           /* Player ratio: 100 / (1280 / 720) */
-        }
-        .react-player{
-          top: 50px;
-          border: 2px solid red;
         }
 
         }

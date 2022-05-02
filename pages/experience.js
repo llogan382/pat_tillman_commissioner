@@ -3,10 +3,10 @@ import PTCHeader from "../components/PTCHeader";
 export default function Experience() {
   return (
     <>
+
       <section>
-        <h1>Experience</h1>
-      </section>
-      <section>
+      <h1>Experience</h1>
+
         <p>
         Welcome to my site and I am delighted you are taking time to inform yourself. I wanted this site to be a portal for those that are exploring, and to keep this site more conversational. So, here goes!
         </p>
@@ -29,6 +29,12 @@ export default function Experience() {
           max-width: 1200px;
 
           margin: auto;
+        }
+
+        @media (max-width: 600px) {
+          section {
+            padding-top: 7rem;
+          }
         }
       `}</style>
     </>

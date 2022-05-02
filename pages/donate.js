@@ -41,6 +41,11 @@ export default function Donate() {
           max-width: 1200px;
           margin: auto;
         }
+        @media (max-width: 600px) {
+          section {
+            padding-top: 7rem;
+          }
+        }
       `}</style>
     </>
   );
