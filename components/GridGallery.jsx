@@ -17,11 +17,6 @@ import fifteen from "../public/fifteen.jpg";
 import sixteen from "../public/sixteen.jpg";
 import seventeen from "../public/seventeen.jpg";
 import eighteen from "../public/eighteen.jpg";
-// import 18 from '../public/18.jpg'
-// import 19 from '../public/19.jpg'
-// import 20 from '../public/20.jpg'
-// import 21 from '../public/21.jpg'
-// import 22 from '../public/22.jpg'
 import iraq from "../public/iraq.jpg";
 
 import twentytwo from "../public/twentytwo.jpg";
