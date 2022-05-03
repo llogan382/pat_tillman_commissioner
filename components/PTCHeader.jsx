@@ -151,33 +151,32 @@ export default function PTCHeader() {
           grid-area: social2;
           justify-self: end;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 1000px) {
           .header-grid {
             display: grid;
-            /* align-items: end; */
+          grid-template-columns: minmax(auto, 50%) repeat(4, 100px);
+
             justify-content: center;
             justify-items: center;
             gap: 1rem;
             /* grid-template-columns: 200px minmax(300px 1fr); */
             /* grid-auto-flow: rows; */
             /* width: 100%; */
-            grid-template-areas:
-              "banner"
-              "item1"
-              "item2"
-              "item3"
-              "item4"
-              "email"
-              "social1"
-              "social2";
-          }
+
+          grid-template-areas:
+            "name item1 item2 item3 item4"
+            "name . . . email"
+            "office . . social1 social2";
+        }
           .grid-logo {
             justify-self: center;
           }
           .grid-email {
             grid-area: email;
-            grid-column-start: 1;
-            grid-column-end: span 1;
+            grid-column-start: 3;
+            grid-column-end: span 3;
+            justify-self: flex-end;
+
           }
           /* .grid-social1 {
             grid-area: social1;
