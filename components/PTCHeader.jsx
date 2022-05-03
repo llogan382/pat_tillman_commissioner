@@ -52,8 +52,8 @@ export default function PTCHeader() {
               <Image
                 className="navLogo"
                 src="/tiktok.png"
-                width={25}
-                height={25}
+                width={35}
+                height={35}
                 alt="Pat Tillman Logo"
               />
             </a>
@@ -65,8 +65,8 @@ export default function PTCHeader() {
               <Image
                 className="navLogo"
                 src="/facebook.png"
-                width={25}
-                height={25}
+                width={35}
+                height={35}
                 alt="Pat Tillman Logo"
               />
             </a>
@@ -89,6 +89,7 @@ export default function PTCHeader() {
           margin: auto;
           color: white;
           font-weight: 700;
+          gap: 1rem;
           /* grid-auto-flow: column; */
           /* grid-template-areas:
             "banner item1 item2 item3 item4"
@@ -101,7 +102,13 @@ export default function PTCHeader() {
             "name office . . social1 social2";
         }
         h1{
-          font-size: 3rem;
+          font-size: 4rem;
+          font-weight: 700;
+
+        }
+        h2{
+          font-size: 2rem;
+          font-weight: 300;
         }
         .grid-name {
           grid-row-start: name;
@@ -109,7 +116,7 @@ export default function PTCHeader() {
           grid-column-start: name;
           grid-column-end: name;
           justify-self: start;
-          font-size: 3rem;
+          font-size: 2rem;
         }
         .grid-office {
           grid-area: office;

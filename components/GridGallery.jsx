@@ -11,7 +11,7 @@ import nine from "../public/nine.jpg";
 import ten from "../public/ten.jpg";
 import eleven from "../public/eleven.jpg";
 import twelve from "../public/twelve.jpg";
-import thirteen from "../public/thirteen.jpg";
+import toschool from "../public/toschool.jpg";
 import fourteen from "../public/fourteen.jpg";
 import fifteen from "../public/fifteen.jpg";
 import sixteen from "../public/sixteen.jpg";
@@ -108,6 +108,12 @@ export default function GridGallery() {
           <div className="image-wrap image-8">
             <Image className="image" alt="" src={twentyeight} />
           </div>
+          <div className="image-wrap to_school">
+            <Image className="image"
+                          layout="fill"
+                          objectFit="cover"
+            alt="" src={toschool} />
+          </div>
 
           <div className="image-wrap image-10">
             <Image
@@ -129,9 +135,7 @@ export default function GridGallery() {
             />
           </div>
 
-          <div className="image-wrap image-16">
-            <Image className="image" alt="" src={sixteen} />
-          </div>
+
 
           <div className="image-wrap image-17">
             <Image
@@ -142,6 +146,10 @@ export default function GridGallery() {
               src={seventeen}
             />
           </div>
+          <div className="image-wrap image-16">
+            <Image className="image" alt="" src={sixteen} />
+          </div>
+
         </div>
       </div>
 
@@ -187,7 +195,7 @@ export default function GridGallery() {
           grid-row: auto / span 2;
         }
 
-        .image-4 {
+        .image-4, .to_school {
           grid-row: auto / span 2;
         }
         .image-8 {
@@ -198,7 +206,7 @@ export default function GridGallery() {
           grid-row: auto / span 2;
         }
         .image-17,
-        .image-14 {
+        .image-14, .image-iraq {
           grid-column: auto / span 2;
           grid-row: auto / span 2;
         }

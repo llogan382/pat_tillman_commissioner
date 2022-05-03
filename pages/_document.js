@@ -14,10 +14,7 @@ export default function Document() {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
-          rel="stylesheet"
-        />
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"/>
 
         <meta
           property="og:title"
