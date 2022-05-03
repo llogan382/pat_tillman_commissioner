@@ -24,8 +24,6 @@ export default function Experience() {
           padding: 2rem 1rem;
 
 
-          /* display: flex; */
-          width: 80%;
           max-width: 1200px;
 
           margin: auto;
