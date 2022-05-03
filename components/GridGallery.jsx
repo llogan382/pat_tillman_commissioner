@@ -11,14 +11,13 @@ import nine from "../public/nine.jpg";
 import ten from "../public/ten.jpg";
 import eleven from "../public/eleven.jpg";
 import twelve from "../public/twelve.jpg";
-import toschool from "../public/toschool.jpg";
 import fourteen from "../public/fourteen.jpg";
 import fifteen from "../public/fifteen.jpg";
 import sixteen from "../public/sixteen.jpg";
 import seventeen from "../public/seventeen.jpg";
 import eighteen from "../public/eighteen.jpg";
 import iraq from "../public/iraq.jpg";
-
+import toschool from "../public/toschool.jpg";
 import twentytwo from "../public/twentytwo.jpg";
 import twentythree from "../public/twentythree.jpg";
 import twentyfour from "../public/twentyfour.jpg";
