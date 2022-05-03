@@ -17,6 +17,7 @@ import sixteen from "../public/sixteen.jpg";
 import seventeen from "../public/seventeen.jpg";
 import eighteen from "../public/eighteen.jpg";
 import iraq from "../public/iraq.jpg";
+import toschool from "../public/toschool.jpg";
 import twentytwo from "../public/twentytwo.jpg";
 import twentythree from "../public/twentythree.jpg";
 import twentyfour from "../public/twentyfour.jpg";
@@ -101,7 +102,12 @@ export default function GridGallery() {
           <div className="image-wrap image-8">
             <Image className="image" alt="" src={twentyeight} />
           </div>
-
+          <div className="image-wrap to_school">
+            <Image className="image"
+                          layout="fill"
+                          objectFit="cover"
+            alt="" src={toschool} />
+          </div>
 
           <div className="image-wrap image-10">
             <Image
