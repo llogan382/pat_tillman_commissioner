@@ -4,6 +4,7 @@ import Image from "next/image";
 import profile from "../public/profile.jpg";
 import PTCVideo from "../components/PTCVideo";
 import three from "../public/three.jpg";
+import Endorsements from "../components/Endorsements";
 import React from "react";
 export default function Home() {
   return (
@@ -18,18 +19,17 @@ export default function Home() {
       <section className="meet_pat_section">
         <div className="meet_pat_wrapper">
           <div className="meet_pat_content">
-            <h3>Meet Pat</h3>
+            <h2>Meet Pat</h2>
             <p>
             A ‘heart for service’ is what you need to know about me, and this experience matters. This started when I joined the US Marines 5 weeks after I graduated from Appalachian State University. Serving my country is one of the greatest privileges I’ve ever known, both in peacetime and in armed conflict.
             </p>
           </div>
-{/* TODO: Change color of links */}
 
           <div className="meet_pat_img">
             <Image
               // layout="fill"
-              width={800}
-              height={800}
+              width={400}
+              height={400}
               // className="navLogo"
               src={profile}
               alt="Pat Tillman Logo"
@@ -37,10 +37,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Endorsements />
       <GridGallery />
       <style jsx>{`
       .headerContent{
         font-weight: bold;
+          max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+
       }
               .meet_pat_section {
           width: 100%;
@@ -49,8 +54,6 @@ export default function Home() {
         }
         .header_wrapper {
           display: flex;
-          width: 80%;
-          max-width: 1200px;
           margin: auto;
         }
 
@@ -58,13 +61,13 @@ export default function Home() {
 
         .meet_pat_wrapper {
           max-width: 1200px;
-          width: 80%;
+          /* width: 80%; */
 
           margin: auto;
           display: flex;
           flex-direction: row;
           align-items: center;
-          justify-content: space-around;
+          justify-content: space-evenly;
           gap: 2rem;
         }
         h3 {
@@ -72,11 +75,16 @@ export default function Home() {
           margin: auto;
         }
         .meet_pat_content {
-          padding: 2rem 0;
+          /* padding: 2rem 0; */
           display: flex;
           flex-direction: column;
+          flex: 50%;
+
         }
         .meet_pat_img {
+          /* flex: 100% 80% auto; */
+          flex: auto;
+
         }
 
         .player-wrapper {

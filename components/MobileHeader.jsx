@@ -23,17 +23,35 @@ export default function MobileHeader() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
+
+      {/* <Link
+              href="https://www.tiktok.com/@patricktillman1?lang=en"
+              passHref
+            >
+
+                <Image
+                  src="/tiktok.png"
+                  width={25}
+                  height={25}
+                  alt="Pat Tillman Logo"
+                />
+            </Link> */}
       <header className="header" id="headerId">
-        <a href="" className="logo">
-          <Image
+        <Link
+        href="/"
+        passHref
+        className="logo">
+                  <Image
             className="navLogo"
             src={patTillmanLogo}
             width={100}
             height={76}
             alt="Pat Tillman Logo"
           />
-        </a>
-        <input className="menu-btn" type="checkbox" checked={isOn} id="menu-btn" onClick={toggleIsOn}/>
+        </Link>
+
+
+        <input className="menu-btn" type="checkbox" checked={isOn} id="menu-btn" onClick={toggleIsOn} onChange={()=> {}} defaultChecked/>
         <label className="menu-icon" htmlFor="menu-btn" >
           <span className="navicon"></span>
         </label>

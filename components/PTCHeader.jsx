@@ -10,15 +10,14 @@ export default function PTCHeader() {
         <title>Pat Tillman | County Commissioner</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      <nav>
+
       <div className="header-grid">
-        <div className="grid-logo">
-          <Image
-            className="navLogo"
-            src={patTillmanLogo}
-            width={250}
-            height={189}
-            alt="Pat Tillman Logo"
-          />
+        <div className="grid-name">
+        <h1>Pat Tillman</h1>
+        </div>
+        <div className="grid-office">
+        <h2>County Commissioner</h2>
         </div>
         <div className="item1">
           <Link href="/experience">Experience</Link>
@@ -74,12 +73,12 @@ export default function PTCHeader() {
           </Link>
         </div>
       </div>
+      </nav>
 
       <style jsx>{`
         .header-grid {
           padding: 0 1rem;
           display: grid;
-
           align-items: end;
           /* justify-content: end; */
           justify-items: end;
@@ -88,19 +87,37 @@ export default function PTCHeader() {
           width: 100%;
           max-width: 1200px;
           margin: auto;
+          color: white;
+          font-weight: 700;
           /* grid-auto-flow: column; */
-          grid-template-areas:
+          /* grid-template-areas:
             "banner item1 item2 item3 item4"
             "banner . . . email"
             "banner . . social1 social2";
+        } */
+        grid-template-areas:
+            "name office item1 item2 item3 item4"
+            "name office . . . email"
+            "name office . . social1 social2";
         }
-
-        .grid-logo {
-          grid-row-start: banner;
-          grid-row-end: banner;
-          grid-column-start: banner;
-          grid-column-end: banner;
+        h1{
+          font-size: 3rem;
+        }
+        .grid-name {
+          grid-row-start: name;
+          grid-row-end: name;
+          grid-column-start: name;
+          grid-column-end: name;
           justify-self: start;
+          font-size: 3rem;
+        }
+        .grid-office {
+          grid-area: office;
+          grid-row-start: office;
+          grid-row-end: office;
+          grid-column-start: office;
+          grid-column-end: office;
+          align-self: center;
         }
         .item1 {
           grid-area: item1;
@@ -116,7 +133,7 @@ export default function PTCHeader() {
         }
         .grid-email {
           grid-area: email;
-          grid-column-start: 3;
+          grid-column-start: 4;
           grid-column-end: span 3;
         }
         .grid-social1 {
