@@ -62,7 +62,7 @@ p{
 }
 
 a{
-  color: var(--army-gn);
+  color: white;
 }
 
 
@@ -70,8 +70,4 @@ a:hover{
   transform: scale(1.2);
   border-bottom: var(--campaign-green) solid 2px;
   text-decoration: none;
-}
-
-a:visited{
-  color: var(--neutral-green);
 }

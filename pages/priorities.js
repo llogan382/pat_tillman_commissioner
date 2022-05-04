@@ -17,6 +17,8 @@ export default function Priorities() {
 </li>
       <li>I envision Guilford County to be the cleanest and most welcoming County in the state
 </li>
+<li>Keep tax revenue neutral
+</li>
     </ol>
       </section>
 

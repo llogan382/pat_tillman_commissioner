@@ -10,11 +10,14 @@ export default function Service() {
       Service
     </h1>
     <p>
-    In 2018, Appointed to the NC Safe Schools Task Force NC Task Force for Safer Schools | NC DPI
-Board of Directors for The Heroe&apos;s Center  Heroes Center (heroescenternc.org)
+    Appointed to the NC Safer Schools Task Force -  The Center for Safer Schools Task Force was established in September 2013, by Executive Order 25, tasked to serve as an advisory body to the Center. The Task Force is comprised by appointed stakeholders to include parents, students, teachers, school administrators, law enforcement, juvenile justice professionals and mental health professionals.
+    </p>
+    <p>
+    Board of Directors (Vice-Chairman) - The Heroe&apos;s Center - The Heroes Center is a faith-based 501c3 that provides all Veterans with the necessary resources to successfully transition into civilian life. We address the tough issues facing Veterans such as transitional housing, job placement and the challenges of connecting in community
     </p>
 <p>
-Senior Leadership team for Greensboro’s F3 (Fitness, Fellowship and Faith) F3 Greensboro - free bootcamp-style group workouts for men
+F3 Greensboro (Fitness, Fellowship and Faith) Serve on Senior Leadership Team- Our mission is to plant, grow and serve small workout groups for men for the invigoration of male community leadership.
+
 </p>
 <p>
 I am currently the Director of Sales & Marketing for Friends Homes, Inc., a continuing care retirement community
