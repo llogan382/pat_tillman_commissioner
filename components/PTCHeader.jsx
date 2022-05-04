@@ -104,7 +104,7 @@ export default function PTCHeader() {
             "name office . . social1 social2";
         }
         h1{
-          font-size: 4rem;
+          font-size: 3rem;
           font-weight: 700;
           margin-bottom: 0;
 
