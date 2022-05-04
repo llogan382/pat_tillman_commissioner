@@ -1,10 +1,14 @@
+import "../style.css";
+import PTCHeader from "../components/PTCHeader";
+import MobileHeader from "../components/MobileHeader";
 
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-
-        <Component {...pageProps} />
+      <PTCHeader />
+<MobileHeader />
+      <Component {...pageProps} />
     </>
-  )
+  );
 }
