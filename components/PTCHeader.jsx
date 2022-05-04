@@ -7,7 +7,7 @@ export default function PTCHeader() {
   return (
     <div>
       <Head>
-        <title>Pat Tillman | County Commissioner</title>
+        <title>Pat Tillman | Republican for County Commissioner</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <nav>
@@ -15,9 +15,11 @@ export default function PTCHeader() {
       <div className="header-grid">
         <div className="grid-name">
         <h1>Pat Tillman</h1>
+        <p>Republican</p>
         </div>
         <div className="grid-office">
         <h2>County Commissioner</h2>
+
         </div>
         <div className="item1">
           <Link href="/experience">Experience</Link>
@@ -104,11 +106,15 @@ export default function PTCHeader() {
         h1{
           font-size: 4rem;
           font-weight: 700;
+          margin-bottom: 0;
 
         }
         h2{
           font-size: 2rem;
           font-weight: 300;
+        }
+        p{
+          margin: auto;
         }
         .grid-name {
           grid-row-start: name;
@@ -117,6 +123,8 @@ export default function PTCHeader() {
           grid-column-end: name;
           justify-self: start;
           font-size: 2rem;
+          display: flex;
+flex-direction: column;
         }
         .grid-office {
           grid-area: office;
