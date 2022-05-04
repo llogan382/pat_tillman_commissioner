@@ -15,7 +15,7 @@ export default function Experience() {
 
         </p>
         <p>
-        I was elected to the Board of Education as the District 3 representative in 2016 and was re-elected in 2020. I have the distinct pleasure of working on behalf of students and their families to solve problems. Serving on the Board of education in District 3 I have had the honor of leading our CTE (Career Technical Education) efforts, helping secure $3mm from the NC General Assembly to help bolster our signature career academies. These efforts have been broad based, challenging and have involved working with multiple stake-holders, across a wide spectrum of priorities.
+        I was elected to the Board of Education as the District 3 representative in 2016 and was re-elected in 2020. I have the distinct pleasure of working on behalf of students and their families to solve problems. Serving on the Board of education in District 3 I have had the honor of leading our CTE (Career Technical Education) efforts, helping secure $3mm from the NC General Assembly to help bolster our signature career academies. These efforts have been broad based, challenging and have involved working with multiple stake-holders, across a wide spectrum of  priorities.
         </p>
       </section>
 
