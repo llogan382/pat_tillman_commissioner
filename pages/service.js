@@ -36,7 +36,8 @@ Serving as a staff non-commissioned officer in the U.S. Marines, I worked and le
 
       <style jsx>{`
         section {
-          padding: 2rem 1rem;
+          padding: 2rem 4rem;
+
 
           /* display: flex; */
           max-width: 1200px;
