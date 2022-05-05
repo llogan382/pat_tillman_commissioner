@@ -22,6 +22,9 @@ export default function Endorsements(){
       <div className="endorsement_card">
         <div className="endorsement_title">Greensboro Builders Association</div><p><i></i></p>
       </div>
+      <div className="endorsement_card">
+        <div className="endorsement_title">Rhino Times</div><p><i></i></p>
+      </div>
       </div>
     </section>
 
