@@ -44,20 +44,20 @@ export default function MobileHeader() {
           <span className="navicon"></span>
         </label>
         <ul className="menu" onClick={toggleIsOn}>
-          <li  >
-            <Link  passHref href="/experience">Experience</Link>
+          <li>
+            <Link className="mobile-link"  passHref href="/experience">Experience</Link>
           </li>
           <li>
-            <Link passHref href="/service">
+            <Link className="mobile-link" passHref href="/service">
               Service
             </Link>
           </li>
           <li>
-            <Link passHref href="/priorities">
+            <Link className="mobile-link" passHref href="/priorities">
 Priorities
             </Link>
           </li>
-          <li>
+          <li className="mobile-link">
             <Link passHref href="/donate">
 Donate
             </Link>
@@ -102,8 +102,8 @@ Donate
       <style jsx>{`
         /* For the hamburger menu */
 
-        a {
-          color: #000;
+        a{
+          color: red !important;
         }
 
         /* header */

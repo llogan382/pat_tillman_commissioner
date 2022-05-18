@@ -22,7 +22,10 @@ export default function PTCHeader() {
 
         </div>
         <div className="item1">
-          <Link href="/experience">Experience</Link>
+          <Link href="/experience">
+          <a>Experience
+          </a>
+          </Link>
         </div>
         <div className="item2">
           <Link href="/service">
@@ -44,8 +47,9 @@ export default function PTCHeader() {
           <Link
             href="mailto:
       pat@tillmanforcountycommissioner.com"
-          >
-            pat@tillmanforcountycommissioner.com
+          ><a href="mailto:
+          pat@tillmanforcountycommissioner.com">
+            pat@tillmanforcountycommissioner.com</a>
           </Link>
         </div>
         <div className="grid-social1">
@@ -78,6 +82,9 @@ export default function PTCHeader() {
       </nav>
 
       <style jsx>{`
+        a{
+          color: white !important;
+        }
         .header-grid {
           padding: 0 1rem;
           display: grid;
@@ -136,6 +143,7 @@ flex-direction: column;
         }
         .item1 {
           grid-area: item1;
+          color: white;
         }
         .item2 {
           grid-area: item2;
@@ -149,6 +157,8 @@ flex-direction: column;
         .grid-email {
           grid-area: email;
           grid-column-start: 4;
+          color: white;
+
           grid-column-end: span 3;
         }
         .grid-social1 {
@@ -159,7 +169,11 @@ flex-direction: column;
           grid-area: social2;
           justify-self: end;
         }
+
         @media (max-width: 1000px) {
+          a{
+          color: white !important;
+        }
           .header-grid {
             display: grid;
           grid-template-columns: minmax(auto, 50%) repeat(4, 100px);
